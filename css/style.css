@@ -1,0 +1,102 @@
+* {
+  font-family: 'Heebo';
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+}
+
+body {
+  background-color: #111;
+}
+
+.main-header {
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 5em;
+  margin: 0;
+  line-height: 1.2em;
+  margin-top: 1em;
+}
+
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.description__birth {
+  font-size: 1.8em;
+  margin-top: 1em;
+  
+}
+
+.description__about {
+  text-align: center;
+  font-size: 2em;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: .6em;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.photo__img {
+  height: 30em;
+  width: 30em;
+  padding: 1em;
+  border-radius: 50%;
+}
+
+.photo__descr {
+  font-size: 2em;
+  background-color: #705AFF;
+}
+
+.img-wrap {
+  text-align: center;
+}
+
+.biography {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.biography__header {
+  font-size: 2em;
+}
+
+.biography__item-wrap {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.biography__wrap {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.biography__wrap-link {
+  font-size: 1.3em;
+  font-weight: 600;
+  text-decoration: none;
+  transition: .4s ease-out;
+}
+
+.biography__wrap-link:hover {
+  color: #705AFF;
+}
